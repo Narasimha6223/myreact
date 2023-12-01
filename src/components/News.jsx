@@ -32,7 +32,7 @@ const body =
                     ]
                 },
                 {
-                    "locationUri": "http://en.wikipedia.org/wiki/Hyderabad"
+                    "locationUri": "http://en.wikipedia.org/wiki/India"
                 }
             ]
         },

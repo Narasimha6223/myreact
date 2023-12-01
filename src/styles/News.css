@@ -1,0 +1,68 @@
+
+    
+.singlebox img{
+    height: 250px;
+    width: 400px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.singlebox {
+    /* border: 1px solid yellow; */
+    width: 23rem;
+    margin: 1px;
+    padding: 1px;
+}
+
+.multiplebox{
+    margin: 1px;
+    padding: 1px;
+    width: 40rem;
+}
+
+.singlebox p{
+    font-size: 20px;
+    margin: 1px;
+    padding: 1px;
+}
+
+.singlebox p, .multiplebox p{
+    text-align: justify;
+    line-height: 25px;
+}
+
+.multiplebox p{
+    
+    font-size: 18px;
+    padding: 5px;
+}
+.newsbox{
+    /* border: 1px solid red; */
+    width: 75vw;
+    margin: auto;
+    background-color: #2b2b2b;
+    border-radius: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+@media  (width < 950px){
+ .newsbox , .singlebox , .multiplebox{
+    width: 100vw;
+    border-radius: 0;
+
+
+ }  
+
+ .multiplebox{
+    margin-bottom: 15px;
+ }
+
+.coolhr{width: 100vw;}
+     
+.singlebox img{
+    margin-top: 0;
+    border-radius: 0;
+}
+
+}
+

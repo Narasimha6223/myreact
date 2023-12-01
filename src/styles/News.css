@@ -68,5 +68,6 @@
 
 @media  (width < 500px){
     .coolhr{display: none;}
+    .singlebox img{width:100vw}
 }
 

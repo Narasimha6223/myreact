@@ -39,10 +39,11 @@ body{
 ::-webkit-scrollbar-track{
     
 }
-
+#aboutbox{
+    width: 75vw;
+}
 
 .container{
-    /* border: 1px solid red; */
     width: 80vw;
     margin: 150px auto;
     padding: 15px;
@@ -57,5 +58,8 @@ body{
 @media (width < 500px){
     .coolhr{
         display:none;
+    }
+    #aboutbox{
+        width: 95vw;
     }
 }

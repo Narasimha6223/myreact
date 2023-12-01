@@ -11,7 +11,6 @@ export default function Newsitem(props) {
             <div className='newsbox flex align-center justify-around wrap'>
                 <div className="singlebox flex align-center justify-center flex-col">
                     <img src={props.imgurl === null || undefined ? "/noimage.jpg" : props.imgurl} alt="No Image Available" />
-                    <p><a target="_blank" href={props.url} style={{ color: "white", textDecoration: "none" }}>{props.title}...</a></p>
 
                 </div>
                 <div className="multiplebox flex align-start justify-center flex-col">

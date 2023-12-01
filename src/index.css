@@ -53,3 +53,9 @@ body{
         margin: 15px;
     }
 }
+
+@media (width < 500px){
+    .coolhr{
+        display:none;
+    }
+}

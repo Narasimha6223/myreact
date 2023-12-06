@@ -47,41 +47,33 @@
 
 #sidebar {
 
-    position: fixed;
+    position: absolute;
     top: 0;
     height: 100vh;
-    /* background-color:  */
     background-color: rgba(43,43,43,0.5);
-    width: 40vw;
-    right: 0;
-    animation: openside 0.5s ease-in linear 100ms 1;
+    width: 0;
+    /* display: none; */
+    transition: width 0.5s ease-in-out;
 
     >ul {
+        overflow: hidden;
         >li {
             list-style: none;
-            margin: 0.7rem;
+            
+  padding: 15px;
             font-family: 'Roboto', sans-serif;
 
             >a {
                 text-decoration: none;
-                font-size: 1.4rem;
+                font-size: 1.2rem;
                 color: rgb(255, 255, 255);
-                padding: 5px;
                 border-radius: 7px;
             }
         }
     }
 }
 
-@keyframes openside {
-    0% {
-        width: 0vw;
-    }
 
-    100% {
-        width: 40vw;
-    }
-}
 
 
 

@@ -4,8 +4,14 @@ import '../styles/Navbar.css'
 import { Link } from 'react-router-dom'
 export default function Navbar() {
     const togglesidebar = () => {
-        let x = document.getElementById('sidebar')
-        x.classList.toggle('displaynone')
+        const toggleButton = document.getElementById('togglemenu');
+        const sidebar = document.getElementById('sidebar');
+      
+        toggleButton.addEventListener('click', function () {
+          // Toggle the width of the sidebar to show/hide it
+          sidebar.style.width = sidebar.style.width === '40vw' ? '0' : '40vw';
+         
+        });
     }
 
 
@@ -40,7 +46,8 @@ export default function Navbar() {
         </nav>
 
 
-            <div id='sidebar' className='displaynone' onClick={togglesidebar}>
+        <div id="sidebar" class="sidebar">
+     
                 <ul className='flex align-center justify-center flex-col'>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>

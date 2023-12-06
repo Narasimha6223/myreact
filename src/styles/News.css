@@ -67,7 +67,7 @@
 }
 
 @media  (width < 500px){
-    .coolhr{}
+    .source-name{display: none;}
     .singlebox img{ width: 90vw;
         height: 50vw;
         border-radius: 22px;}

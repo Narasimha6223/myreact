@@ -4,14 +4,12 @@ import '../styles/Navbar.css'
 import { Link } from 'react-router-dom'
 export default function Navbar() {
     const togglesidebar = () => {
-        const toggleButton = document.getElementById('togglemenu');
         const sidebar = document.getElementById('sidebar');
       
-        toggleButton.addEventListener('click', function () {
-          // Toggle the width of the sidebar to show/hide it
+     
           sidebar.style.width = sidebar.style.width === '40vw' ? '0' : '40vw';
          
-        });
+        
     }
 
 

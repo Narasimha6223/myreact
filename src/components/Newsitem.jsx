@@ -14,7 +14,7 @@ export default function Newsitem(props) {
 
                 </div>
                 <div className="multiplebox flex align-start justify-center flex-col">
-                    <p><strong>{props.source}</strong> <br />
+                    <p>
                         <a target="_blank" href={props.url} style={{ color: "white", textDecoration: "none" }}>{props.desc}...Click to Read More</a></p>
                         <p>By <strong>{props.author}</strong> on <strong>{props.date}</strong></p>
                         {/* <p>By <strong></strong></p> */}

@@ -47,7 +47,7 @@
 
 @media  (width < 950px){
  .newsbox , .singlebox , .multiplebox{
-    width: 100vw;
+    width: 90vw;
     border-radius: 0;
 
 
@@ -67,7 +67,10 @@
 }
 
 @media  (width < 500px){
-    .coolhr{display: none;}
-    .singlebox img{width:100vw}
+    .coolhr{}
+    .singlebox img{ width: 90vw;
+        height: 50vw;
+        border-radius: 22px;}
+   
 }
 

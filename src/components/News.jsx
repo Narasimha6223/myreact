@@ -100,7 +100,7 @@ let key = 0;
     {
       articles.map((e)=>{
         
-          return <Newsitem key={key++} imgurl={e.image==null||""?"/noimage.jpg":e.image} url={e.url==null||""?"":e.url}  desc={e.body==null||""?"Click TO Read":e.body.slice(0,150)}  title={e.title==null||""?"No Title":e.title.slice(0,100)} source={e.source.title} content={e.body==null||""?"Click TO Read":e.body} date={new Date(e.date).toDateString()} author={e.source.title==null||""||undefined?"N/A":e.source.title}/>
+          return <Newsitem key={key++} imgurl={e.image==null||""?"/noimage.jpg":e.image} url={e.url==null||""?"":e.url}  desc={e.body==null||""?"Click TO Read":e.body.slice(0,80)}  title={e.title==null||""?"No Title":e.title.slice(0,100)} source={e.source.title} content={e.body==null||""?"Click TO Read":e.body} date={new Date(e.date).toDateString()} author={e.source.title==null||""||undefined?"N/A":e.source.title}/>
         
       })
     }
